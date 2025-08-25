@@ -41,7 +41,7 @@ m_u * z̈_u + c_s (ż_u - ż_s) + k_w (z_u - z_s) + k_t(z_u - y_r) = 0
 ```
 
 ## Requirements
-- MATLAB R2018a+ (earlier may work)  
+- MATLAB R2018a+ 
 - Control System Toolbox (for Bode plots); core simulations use basic ODE/lsim-compatible methods
 
 ## Useful entry points
