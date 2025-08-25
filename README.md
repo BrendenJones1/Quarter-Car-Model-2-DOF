@@ -20,8 +20,6 @@ frequency response (Bode), and Pareto sweeps for spring/damper tuning.
 ## Folder structure
 ```
 src/   % MATLAB source files
-data/  % Placeholder for logs/exports
-docs/  % PDF/notes (empty placeholder by default)
 ```
 
 ## Model overview
