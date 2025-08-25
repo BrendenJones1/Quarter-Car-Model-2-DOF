@@ -1,11 +1,11 @@
 function P = quarter_car_params()
-%QUARTER_CAR_PARAMS  Baseline FSAE-ish parameters (edit for your car).
+%QUARTER_CAR_PARAMS
 % Units: SI (m, s, N, kg)
 
-P.ms = 60;        % sprung mass per corner [kg]
-P.mu = 20;        % unsprung mass [kg]
+P.ms = 90;        % sprung mass per corner [kg]
+P.mu = 30;        % unsprung mass [kg]
 
-% Wheel-space spring/damper (convert from spring rate and motion ratio if needed)
+% Wheel-space spring/damper
 P.kw = 45e3;      % wheel rate [N/m]
 P.cs = 2.0e3;     % damping at wheel [N*s/m] (linearized around mid-speed)
 
